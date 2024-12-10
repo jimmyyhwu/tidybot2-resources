@@ -1,0 +1,51 @@
+Category,Item,Vendor,URL,Unit Cost,Quantity,Total Cost,Notes
+Main,Kinova arm,,,,1,,We used the Gen3 7-DoF arm with a Robotiq 2F-85 gripper
+Main,Portable power station,Amazon,https://www.amazon.com/EF-ECOFLOW-Portable-Charging-Generator/dp/B0BVLPGS79,$399.00,1,$399.00,For powering the arm and onboard compute. See component notes for more details.
+Main,Mini PC,,,,1,,Onboard computer for running low-level control. See component notes for more details.
+Main,GPU laptop,,,,1,,Used for onboard or offboard policy inference. A GPU workstation could also work but would not be as portable.
+Main,Wi-Fi router,,,,1,,For communication with the onboard computer
+Main,Wireless gamepad,Amazon,https://www.amazon.com/Logitech-Wireless-Nano-Receiver-Controller-Vibration/dp/B0041RR0TW,$38.19,1,$38.19,For joystick teleop of the mobile base
+Main,Logitech C930e webcam,Amazon,https://www.amazon.com/Logitech-C930e-1080P-Video-Webcam/dp/B00CRJWW2G,$79.99,1,$79.99,"Forward-facing onboard camera for the mobile base with wide (90-degree) field of view. Note: Watch out for fakes, see component notes for more details."
+Main,Fisheye lens attachment,Amazon,https://www.amazon.com/fisheye-Samsung-BlackBerry-anamorphic-Pictures/dp/B08NSGWNTX,$12.99,1,$12.99,For expanding the field of view of the wrist camera
+Caster module,MK4 swerve module,SDS,https://www.swervedrivespecialties.com/products/mk4-swerve-module?variant=47316033995053,$300.00,4,"$1,200.00","Make sure to select ""Kraken X60"", NOT ""Falcon 500"". Select these options: Kraken X60, L1, Colson. If you purchase the Falcon version by accident, please contact the vendor to correct the order."
+Caster module,Kraken X60 motor,WCP,https://wcproducts.com/products/wcp-0940,$199.99,8,"$1,599.92","All academic institutions can use the same academic pricing as FRC teams ($199.99). For non-academic use, please contact the vendor directly."
+Caster module,CANcoder encoder,CTRE,https://store.ctr-electronics.com/products/cancoder?variant=43631126642861,$89.99,4,$359.96,"Make sure to select the ""Wired"" option, NOT the ""Standard"" option. The wired option comes with pre-soldered wires."
+Caster module,MK4 motor riser kit,SDS,https://www.swervedrivespecialties.com/products/kit-riser-motor?variant=47673275089197,$28.00,4,$112.00,"Make sure to select ""Kraken X60"", NOT ""Falcon 500"""
+Caster module,Custom machined shaft,Xometry,https://www.xometry.com/,$15.00,4,$60.00,See Machining section for more details
+Power system,Sealed lead acid (SLA) batteries,WCP,https://wcproducts.com/products/wcp-1492,$99.99,1,$99.99,These MK ES17-12 batteries are sold in pairs so quantity 1 gives you 2 batteries.
+Power system,Battery cable,AndyMark,https://www.andymark.com/products/6-gauge-battery-cable?Insulation%20Type=Stiff%20PVC%20(am-0009)&quantity=1,$19.00,2,$38.00,One battery cable per battery
+Power system,Battery charger,AndyMark,https://www.andymark.com/products/frc-battery-charger?Bank=1%20Bank&quantity=1&Connectors=SB50%20Connectors,$94.00,1,$94.00,
+Power system,Power cable and 120A breaker kit,AndyMark,https://www.andymark.com/products/robot-power-cable-kit-custom-lengths-up-to-36-in,$76.75,1,$76.75,"Select these options: (1) 6 AWG Jacket With SB50, (2) 12 in., (3) 5 in."
+Power system,Power distribution panel (PDP),CTRE,https://store.ctr-electronics.com/products/power-distribution-panel,$204.99,1,$204.99,
+Power system,40A Snap Action breaker,CTRE,https://store.ctr-electronics.com/products/power-distribution-panel-breaker?variant=43631134113965,$7.00,8,$56.00,For powering the motors
+Power system,5A Snap Action breaker,AndyMark,https://www.andymark.com/products/snap-action-breakers?Amperage=5A%20(am-2096)&quantity=1,$6.40,1,$6.40,For powering the encoders
+Power system,22 AWG wire,Amazon,https://www.amazon.com/BNTECHGO-Electric-Gauge-Tinned-Copper/dp/B07JNRJW37,$9.98,1,$9.98,For powering the encoders
+Power system,5-port wire connectors,Amazon,https://www.amazon.com/Wago-221-415-LEVER-NUTS-Conductor-Connectors/dp/B06XH47DC2,$8.22,1,$8.22,"For powering the encoders. 10-pack, 2 will be used."
+Power system,Inline wire connectors,Amazon,https://www.amazon.com/221-2401-Compact-Splicing-Inline-Connectors/dp/B0BT8DHLJJ,$13.75,1,$13.75,"For powering the encoders. 20-pack, 6 will be used."
+Power system,PDP WAGO tool,CTRE,https://store.ctr-electronics.com/products/power-distribution-panel-wago-tool,$12.99,1,$12.99,For opening the WAGO connectors on the PDP
+Power system,Battery flag,AndyMark,https://www.andymark.com/products/battery-flag,$1.50,2,$3.00,For marking SLA batteries after they have been charged
+CAN system,Windows computer,,,,1,,Windows is only needed for initial setup of the motors and encoders with the Phoenix Tuner X application. Our low-level control codebase uses Ubuntu.
+CAN system,CANivore USB-to-CAN adapter,CTRE,https://store.ctr-electronics.com/products/canivore,$299.99,1,$299.99,For communication with the motors and encoders
+CAN system,Phoenix Pro license,CTRE,https://store.ctr-electronics.com/products/phoenix-pro?variant=43631137489069,$100.00,1,$100.00,"Select the ""2024 CANivore Bus x2"" option, NOT the ""Single Device"" or ""Season Pass"" options. This software license enables field-oriented control (FOC) on the motors."
+CAN system,CAN bus and power cable kit,CTRE,https://store.ctr-electronics.com/products/can-bus-power-cable-kit,$9.99,1,$9.99,For connecting the CANivore USB-to-CAN adapter at one end of the bus and the termination resistor at the other end
+CAN system,120 Ohm resistor,CTRE,https://store.ctr-electronics.com/products/120-ohm-axial-resistors,$4.99,1,$4.99,CAN bus termination resistor
+Frame,2020 500mm T-slot extrusions,Amazon,https://www.amazon.com/Aluminum-Extrusion-European-Standard-Anodized/dp/B08CMZ2D8N,$30.99,4,$123.96,"16 total, 13 will be used"
+Frame,2020 250mm T-slot extrusions,Amazon,https://www.amazon.com/Aluminum-Extrusion-European-Standard-Anodized/dp/B08CN9B5VC,$16.99,1,$16.99,"4-pack, all will be used"
+Frame,2020 28mm gussets,Amazon,https://www.amazon.com/Bracket-Connectors-Aluminum-Extrusion-Accessories/dp/B0B9JVW5X8,$12.99,3,$38.97,"30 total, 24 will be used. Screws and slide-in T-nuts are included."
+Frame,2020 20mm gussets,Amazon,https://www.amazon.com/LANIAKEA-Extrusion-20Series-Connector-Accessories/dp/B08NXGV1YH,$7.99,1,$7.99,"50-pack, 8 will be used"
+Frame,2020 90 degree plates,Amazon,https://www.amazon.com/Boeray-10pcs-Joining-Aluminum-Profile/dp/B076DNR5DY,$15.99,3,$47.97,"30 total, 24 will be used"
+Frame,2020 20mm corner brackets,Amazon,https://www.amazon.com/Qjaiune-Aluminum-Extrusion-Brackets-Connector/dp/B09G6KRZ1H,$8.99,1,$8.99,"10-pack, 8 will be used"
+Frame,2020 M5 slide-in T-nuts,Amazon,https://www.amazon.com/KOOTANS-Assembly-Fastener-Aluminum-Extrusion/dp/B07PQ13LCQ,$14.59,3,$43.77,"300 total, 228 will be used"
+Frame,M5 8mm screws,Amazon,https://www.amazon.com/M5-0-8-Button-Socket-Stainless-Quantity/dp/B084MMND2L,$8.99,2,$17.98,"200 total, 174 will be used"
+Frame,M5 10mm screws,Amazon,https://www.amazon.com/M5-0-8-Button-Socket-Stainless-Quantity/dp/B07NVHPPBC,$9.29,1,$9.29,"100 total, 54 will be used"
+Frame,2020 M5 roll-in T-nuts,Amazon,https://www.amazon.com/100-Pack-Aluminum-Extrusions-Profile-Accessories/dp/B07VHNGBWJ,$16.68,1,$16.68,"100-pack, can be useful if you forget to pre-install a slide-in T-nut"
+Frame,6mm clear acrylic sheet (550 x 510 mm),TAP Plastics,https://www.tapplastics.com/product/plastics/cut_to_size_plastic/acrylic_sheets_clear/508,$35.40,1,$35.40,For the laser-cut bottom acrylic plate
+Frame,3mm white acrylic sheet (550 x 230 mm),TAP Plastics,https://www.tapplastics.com/product/plastics/cut_to_size_plastic/acrylic_sheets_color/341,$11.18,2,$22.36,"For the laser-cut top acrylic plates. The exact color we used was ""Lightning White 45%""."
+Arm mounting hardware,2020 M6 roll-in T-nuts,Amazon,https://www.amazon.com/Rierdge-European-Standard-Aluminum-Extrusion/dp/B0B7RR2W69,$11.99,1,$11.99,For securing the Kinova mounting plate to the frame
+Arm mounting hardware,M6 25mm flat head screws,Amazon,https://www.amazon.com/M6-1-0-Socket-Screws-Alloy-Steel/dp/B085M3HN8V,$8.27,1,$8.27,For securing the Kinova mounting plate to the frame
+Accessories,Rope ratchets,Amazon,https://www.amazon.com/VIPARSPECTRA-Retractable-Ratchet-Carabiner-Tie-Down/dp/B07Z613ZM2,$22.99,1,$22.99,For securing components to the frame to prevent movement during operation
+Accessories,Cable sleeves,Amazon,https://www.amazon.com/Alex-Tech-25ft-Protector-Sleeving/dp/B07FW3GTXB,$8.99,1,$8.99,For organizing CAN bus cables
+Accessories,Velcro cable ties,Amazon,https://www.amazon.com/VELCRO-Brand-Cable-Ties-100Pk/dp/B001E1Y5O6,$10.98,1,$10.98,
+Accessories,Zip ties,Amazon,https://www.amazon.com/Tensile-Strength-indoor-outdoor-Skalon/dp/B09PJ8L58G,$3.99,1,$3.99,
+Accessories,USB hub,Amazon,https://www.amazon.com/Anker-Extended-MacBook-Surface-Notebook/dp/B07L32B9C2,$14.99,1,$14.99,This makes it easier to plug peripherals into the onboard mini PC
+Accessories,HDMI extender,Amazon,https://www.amazon.com/Extension-Highwings-High-Speed-Compatible-Chromecast/dp/B09MJ3M5NJ,$5.99,1,$5.99,This makes it easier to plug a monitor into the onboard mini PC

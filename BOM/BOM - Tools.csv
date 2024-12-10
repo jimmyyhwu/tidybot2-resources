@@ -1,0 +1,19 @@
+Item,Vendor,URL,Unit Cost,Quantity,Total Cost,Notes
+3D printer,,,,1,,We recommend using a Bambu Lab or Original Prusa printer
+PLA filament (white),,,,1,,
+PLA filament (black),,,,1,,
+Pliers,,,,1,,For 3D print support removal
+Hook and pick set,Amazon,https://www.amazon.com/HARDK-Hook-Pick-Set-B/dp/B07JYWND74,$8.09,1,$8.09,For 3D print support removal
+Imperial hex T-handles,Amazon,https://www.amazon.com/Bondhus-13190-Balldriver-T-handles-8-Inch/dp/B00012WYEM,$52.12,1,$52.12,For caster module assembly
+Metric hex T-handles,Amazon,https://www.amazon.com/Bondhus-13189-Balldriver-T-handles-2-10mm/dp/B00012Y38M,$40.96,1,$40.96,For frame assembly
+Hex key set,Amazon,https://www.amazon.com/Bondhus-20199-Balldriver-L-Wrench-1-5-10mm/dp/B00012Y38W,$31.19,1,$31.19,
+Phillips screwdriver (#1),,,,1,,For encoder assembly
+"Torx screwdriver (T9, T10)",,,,1,,For motor assembly
+Socket wrench set,,,,1,,For power system assembly
+Loctite 609 retaining compound,Amazon,https://www.amazon.com/Genuine-Loctite-Retaining-Compound-General/dp/B07BCDYD2C,$16.05,1,$16.05,For caster module assembly
+Loctite 243 threadlocker,Amazon,https://www.amazon.com/Loctite-1329467-Medium-Strength-Threadlockers/dp/B009I2UC3Q,$16.42,1,$16.42,For caster module assembly
+White lithium grease,Amazon,https://www.amazon.com/Lucas-Oil-Products-LUC10533-Lithium/dp/B06XSYB7VL,$7.99,1,$7.99,For lubricating caster module gears
+Wire stripper,Amazon,https://www.amazon.com/VISE-GRIP-Stripping-Cutter-8-Inch-2078309/dp/B000JNNWQ2,$10.99,1,$10.99,For encoder power cables (22 AWG solid)
+Large-gauge wire stripper,Amazon,https://www.amazon.com/Southwire-Equipment-S612STR-Ergonomic-Stripper/dp/B00N4TW2BE,$12.14,1,$12.14,For motor power cables (10 AWG stranded)
+"Electrical tape (black, red)",,,,1,,For power system assembly
+Straightedge (50cm),,,,1,,For aligning the wheels when setting encoder magnet offsets. You can also just use an extra T-slot extrusion.
